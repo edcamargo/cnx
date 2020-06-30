@@ -1,11 +1,13 @@
 # CNX Backend Test
-Solução proposta foi a criação de um projeto com arquitetura CQRs registrar um usuário e recomendar músicas com base na cidade natal.
+Solução proposta foi a criação de um projeto com arquitetura CQRs.
+  - Registrar um usuário e recomendar músicas com base na cidade natal.
 
 ## Procedimentos
 
-  * Realizar um clone do projeto atraves do command `git clone https://github.com/edcamargo/cnx.git`
+  * Realizar um clone do projeto através do command `git clone https://github.com/edcamargo/cnx.git`
 
   * Entrar na pasta do projeto e excutar o comando abaixo.
+
 ### `dotnet run` 
   - info: Microsoft.Hosting.Lifetime[0]
   -       Now listening on: http://localhost:5000
@@ -14,16 +16,13 @@ Solução proposta foi a criação de um projeto com arquitetura CQRs registrar 
   - info: Microsoft.Hosting.Lifetime[0]
   -       Hosting environment: Development
 
-### Migrations
-dotnet ef migrations add InitialCreate --startup-project ..\Conexia.Api && dotnet ef database update --startup-project ..\Conexia.Api
-
 ### Business Rules 
 A API precisa registrar os seguintes campos do usuário: 
-	i) nome; 
-       ii) email; 
-      iii) senha; 
-       iv) notas pessoais (múltiplos);
-	v) cidade natal.
+  - i) nome; 
+  - ii) email; 
+  - iii) senha; 
+  - iv) notas pessoais (múltiplos);
+  - v) cidade natal.
 
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
 
@@ -53,13 +52,13 @@ A API precisa registrar os seguintes campos do usuário:
         Spotify (https://developer.spotify.com) para sugerir as faixas como parte da lista de reprodução.
 
 #Plus
-[x] ORM
-[x] Deploy on Cloud
-[x] Swagger
-[x] Migrations
-[x] CQRs
-[x] Clean Clode
-[x] DDD
-[x] Test Unitário
-[ ] Docker
-[ ] Queue - Não achei que caberia no projeto uma solução com Queue
+  *    [x] ORM
+  *    [x] Deploy on Cloud
+  *    [x] Swagger
+  *    [x] Migrations
+  *    [x] CQRs
+  *    [x] Clean Clode
+  *    [x] DDD
+  *    [x] Test Unitário
+  *    [ ] Docker
+  *    [ ] Queue - Não achei que caberia no projeto uma solução com Queue
