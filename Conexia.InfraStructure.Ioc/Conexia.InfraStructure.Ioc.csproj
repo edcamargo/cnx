@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Conexia.InfraStructure.AntiCorruption\Conexia.InfraStructure.AntiCorruption.csproj" />
+    <ProjectReference Include="..\Conexia.InfraStructure.CrossCutting\Conexia.InfraStructure.CrossCutting.csproj" />
+    <ProjectReference Include="..\Conexia.InfraStructure.Data\Conexia.InfraStructure.Data.csproj" />
+    <ProjectReference Include="..\Conexia.Domain\Conexia.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

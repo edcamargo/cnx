@@ -1,0 +1,12 @@
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\bin\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.deps.json
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\bin\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.dll
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\bin\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.pdb
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\bin\Release\netcoreapp3.1\Conexia.Domain.dll
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\bin\Release\netcoreapp3.1\Conexia.Domain.pdb
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.csprojAssemblyReference.cache
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.AssemblyInfoInputs.cache
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.AssemblyInfo.cs
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.csproj.CopyComplete
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.dll
+C:\Projetos\cnx\Conexia.InfraStructure.CrossCutting\obj\Release\netcoreapp3.1\Conexia.InfraStructure.CrossCutting.pdb
