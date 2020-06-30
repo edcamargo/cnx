@@ -30,7 +30,11 @@ A API precisa registrar os seguintes campos do usuário:
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
 
 ### Notas pessoais e senha não devem estar visíveis no banco de dados.
+
+  - Notas pessoais e senha Criptografados no banco
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/CamposInvisiveisBanco.PNG "Screenshoot of the project")
+
+  - Notas pessoais Descriptografados no retorno da APi
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/CamposVisivelApricacao.PNG "Screenshoot of the project")
 
 ### A rota de autenticação deve funcionar com o método JWT.
