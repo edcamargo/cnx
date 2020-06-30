@@ -1,9 +1,18 @@
 # CNX Backend Test
-Crie um microsserviço para registrar um usuário e recomendar músicas com base na cidade natal.
+Solução proposta foi a criação de um projeto com arquitetura CQRs registrar um usuário e recomendar músicas com base na cidade natal.
 
+## Procedimentos
 
-### Clone Projetct
- ##git clone https://github.com/edcamargo/cnx.git
+  * Realizar um clone do projeto atraves do command `git clone https://github.com/edcamargo/cnx.git`
+
+  * Entrar na pasta do projeto e excutar o comando abaixo.
+### `dotnet run` 
+  - info: Microsoft.Hosting.Lifetime[0]
+  -       Now listening on: http://localhost:5000
+  - info: Microsoft.Hosting.Lifetime[0]
+  -       Application started. Press Ctrl+C to shut down.
+  - info: Microsoft.Hosting.Lifetime[0]
+  -       Hosting environment: Development
 
 ### Migrations
 dotnet ef migrations add InitialCreate --startup-project ..\Conexia.Api && dotnet ef database update --startup-project ..\Conexia.Api
@@ -26,10 +35,14 @@ A API precisa registrar os seguintes campos do usuário:
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Autenticacao-JWT.PNG "Screenshoot of the project")
 
 ### A API precisa fornecer um mecanismo de redefinição e esqueci a senha.
-********************![screenshoot](https://github.com/edcamargo/cnx/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
+  *    Redefinição de Senha: Mecanismo implementado no método ResetPassword da api. Precisará de um e-mail, senha antiga e nova senha.
+  *    Esqueci a senha: Mecanismo implementado no método ForgotPassword da api. Precisará de um e-mail valido, a senha deverá ser enviada por e-mail. 
+	`Para efeito de test no processo, a senha está sendo retornada na api como retorno FAKE.`
 
 ### Registre todas as solicitações para futuras auditorias.
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
+
+## As regras abaixo poderá ser conferida no retorno da Api.
 
 ### Com base na cidade natal e na temperatura atual, é necessário recomendar uma lista de reprodução da seguinte forma: 
   *    i) se a temperatura (celcius) estiver acima de 30 graus, suggests faixas para festa; 
@@ -39,13 +52,14 @@ A API precisa registrar os seguintes campos do usuário:
   - APIs do OpenWeatherMaps (https://openweathermap.org) para buscar dados de temperatura e o 
         Spotify (https://developer.spotify.com) para sugerir as faixas como parte da lista de reprodução.
 
-
-O Readme deve conter todas as instruções para executar seu projeto.
-	Você pode usar a API do OpenWeatherMaps (https://openweathermap.org) para buscar dados de temperatura e o 
-        Spotify (https://developer.spotify.com) para sugerir as faixas como parte da lista de reprodução.
-
 #Plus
-* ORM
-* Docker
-* Queue
-* Deploy on Cloud
+[x] ORM
+[x] Deploy on Cloud
+[x] Swagger
+[x] Migrations
+[x] CQRs
+[x] Clean Clode
+[x] DDD
+[x] Test Unitário
+[ ] Docker
+[ ] Queue - Não achei que caberia no projeto uma solução com Queue

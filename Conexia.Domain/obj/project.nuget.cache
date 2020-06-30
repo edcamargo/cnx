@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e1WFGAyndPoxSu5qPRTC00x55tbTTyzgVnPRn7J+9LVkOK4FwepYNwNXk1ssUt65Bc0O/1+e5ZnKEYHAfsFnzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\cnx\\Conexia.Domain\\Conexia.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edwin\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
