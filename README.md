@@ -2,6 +2,23 @@
 Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
   - Registrar um usuário e recomendar músicas com base na cidade natal.
 
+## Regras de negócio
+
+### A API precisa registrar os seguintes campos do usuário: 
+  - i) nome; 
+  - ii) email; 
+  - iii) senha; 
+  - iv) notas pessoais (múltiplos);
+  - v) cidade natal.
+
+### Com base na cidade natal e na temperatura atual, é necessário recomendar uma lista de reprodução da seguinte forma: 
+  *    i) se a temperatura (celcius) estiver acima de 30 graus, suggests faixas para festa; 
+  *    ii) caso a temperatura esteja entre 15 e 30 graus, sugere faixas de música pop; 
+  *    iii) se estiver um pouco frio (entre 10 e 14 graus), sugere faixas de música rock. 
+  *    iv) caso contrário, se estiver frio lá fora, sugere faixas de música clássica.
+  - APIs do OpenWeatherMaps (https://openweathermap.org) para buscar dados de temperatura e o 
+        Spotify (https://developer.spotify.com) para sugerir as faixas como parte da lista de reprodução.
+
 ## Procedimentos
 
   * Realizar um clone do projeto através do command `git clone https://github.com/edcamargo/cnx.git`
@@ -15,15 +32,6 @@ Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
   -       Application started. Press Ctrl+C to shut down.
   - info: Microsoft.Hosting.Lifetime[0]
   -       Hosting environment: Development
-
-### Business Rules 
-
-A API precisa registrar os seguintes campos do usuário: 
-  - i) nome; 
-  - ii) email; 
-  - iii) senha; 
-  - iv) notas pessoais (múltiplos);
-  - v) cidade natal.
 
 ## Resultado do projeto
 
@@ -47,16 +55,6 @@ A API precisa registrar os seguintes campos do usuário:
 
 ### Registre todas as solicitações para futuras auditorias.
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
-
-## As regras abaixo poderão ser conferida no retorno da Api.
-
-### Com base na cidade natal e na temperatura atual, é necessário recomendar uma lista de reprodução da seguinte forma: 
-  *    i) se a temperatura (celcius) estiver acima de 30 graus, suggests faixas para festa; 
-  *    ii) caso a temperatura esteja entre 15 e 30 graus, sugere faixas de música pop; 
-  *    iii) se estiver um pouco frio (entre 10 e 14 graus), sugere faixas de música rock. 
-  *    iv) caso contrário, se estiver frio lá fora, sugere faixas de música clássica.
-  - APIs do OpenWeatherMaps (https://openweathermap.org) para buscar dados de temperatura e o 
-        Spotify (https://developer.spotify.com) para sugerir as faixas como parte da lista de reprodução.
 
 #Plus
   *    [x] ORM
