@@ -56,6 +56,9 @@ Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
 ### Registre todas as solicitações para futuras auditorias.
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
 
+### Teste unitário.
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/TestUnitario.PNG "Screenshoot of the project")
+
 #Plus
   *    [x] ORM
   *    [x] Deploy on Cloud
