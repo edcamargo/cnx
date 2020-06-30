@@ -1,5 +1,5 @@
 # CNX Backend Test
-Solução proposta foi a criação de um projeto com arquitetura CQRs.
+Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
   - Registrar um usuário e recomendar músicas com base na cidade natal.
 
 ## Procedimentos
@@ -17,12 +17,15 @@ Solução proposta foi a criação de um projeto com arquitetura CQRs.
   -       Hosting environment: Development
 
 ### Business Rules 
+
 A API precisa registrar os seguintes campos do usuário: 
   - i) nome; 
   - ii) email; 
   - iii) senha; 
   - iv) notas pessoais (múltiplos);
   - v) cidade natal.
+
+## Resultado do projeto
 
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
 
@@ -41,7 +44,7 @@ A API precisa registrar os seguintes campos do usuário:
 ### Registre todas as solicitações para futuras auditorias.
 ![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
 
-## As regras abaixo poderá ser conferida no retorno da Api.
+## As regras abaixo poderão ser conferida no retorno da Api.
 
 ### Com base na cidade natal e na temperatura atual, é necessário recomendar uma lista de reprodução da seguinte forma: 
   *    i) se a temperatura (celcius) estiver acima de 30 graus, suggests faixas para festa; 
@@ -60,5 +63,5 @@ A API precisa registrar os seguintes campos do usuário:
   *    [x] Clean Clode
   *    [x] DDD
   *    [x] Test Unitário
-  *    [ ] Docker
-  *    [ ] Queue - Não achei que caberia no projeto uma solução com Queue
+  *    [x] Docker
+  *    [ ] Queue
