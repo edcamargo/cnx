@@ -70,7 +70,7 @@ namespace Conexia.Domain.Queries
         {
             // Busca musicas para recomendar
             object Musics;
-            string genre = "classic";
+            string genre = "classical";
 
             if ((double)searchTemperature > 30)
             {

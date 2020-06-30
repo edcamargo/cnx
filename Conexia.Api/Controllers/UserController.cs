@@ -26,7 +26,6 @@ namespace Conexia.Api.Controllers
             => _userQueries.GetAll();
 
         [Authorize("Bearer")]
-        [Authorize("Bearer")]
         [HttpGet("{id}")]
         public UserDto GetById(Guid id)
             => _userQueries.GetById(id);

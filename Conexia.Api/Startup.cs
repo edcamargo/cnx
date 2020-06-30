@@ -34,8 +34,8 @@ namespace Conexia.Api
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
 
-            //services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
-            services.AddDbContextPool<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
+            services.AddDbContext<DataContext>(opt => opt.UseInMemoryDatabase("Database"));
+            //services.AddDbContextPool<DataContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
             // Configurando o serviço de documentação do Swagger
             services.AddSwaggerGen(c =>
