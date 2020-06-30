@@ -57,7 +57,7 @@ namespace Conexia.Api
                     {
                         Title = "Documentação de Apis",
                         Version = "v1.0",
-                        Description = "# Introducão\n Teste para Desenvolvedor Backend Conexia, espero que gostem! \n\n\n"
+                        Description = "# Introducão\n Teste para Desenvolvedor Backend, espero que gostem! \n\n\n"
                                         + "API criada utilizando o padrão REST e o Pattern CQRS. \n\n\n"
                                         + "# Como usar a API?\n Logo a seguir você encontrará todos os recursos e metódos suportados pela API, sendo que essa página possibilita que você teste os recursos "
                                         + "e métodos diretamente através dela.\n\n\n# Autenticação\nVocê precisará de um Usuário e Senha para identificar a conta que está realizando solicitações para a API. \n",
