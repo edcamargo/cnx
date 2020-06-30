@@ -89,7 +89,7 @@ namespace Conexia.Domain.Handlers
             _userRepository.Create(user);
 
             // Busca musicas para recomendar
-            object playList = ReturnPlayListByGenre(searchTemperature);
+            object playList = ReturnPlayListByTemperature(searchTemperature);
 
             // Transita apenas os dados necessários
             var userDto = new UserDto(user.Id, user.Name, user.Email, user.City, command.PersonalNotes, searchTemperature, playList);
@@ -117,7 +117,7 @@ namespace Conexia.Domain.Handlers
 
             // Busca musicas para recomendar
             var searchTemperature = _temperature.GetTemperatureCity(user.City);
-            object playList = ReturnPlayListByGenre(searchTemperature);
+            object playList = ReturnPlayListByTemperature(searchTemperature);
 
             // Transita apenas os dados necessários
             var userDto = new UserDto(user.Id, user.Name, user.Email, user.City, user.PersonalNotes, playList);
@@ -193,7 +193,7 @@ namespace Conexia.Domain.Handlers
             return new GenericCommandResult(true, "Senha recuperada com sucesso", objReturnPassword);
         }
 
-        private object ReturnPlayListByGenre(object searchTemperature)
+        private object ReturnPlayListByTemperature(object searchTemperature)
         {
             // Busca musicas para recomendar
             object Musics;

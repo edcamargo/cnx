@@ -34,7 +34,7 @@ namespace Conexia.Domain.Queries
             foreach (var item in user)
             {
                 var searchTemperature = _temperature.GetTemperatureCity(item.City);
-                object playList = ReturnPlayListByGenre(searchTemperature);
+                object playList = ReturnPlayListByTemperature(searchTemperature);
 
                 UserDto userDto = new UserDto(item.Id, 
                                               item.Name, 
@@ -54,7 +54,7 @@ namespace Conexia.Domain.Queries
             var user = _userRepository.GetById(Id);
 
             var searchTemperature = _temperature.GetTemperatureCity(user.City);
-            object playList = ReturnPlayListByGenre(searchTemperature);
+            object playList = ReturnPlayListByTemperature(searchTemperature);
 
             UserDto userDto = new UserDto(user.Id, 
                                           user.Name, 
@@ -66,7 +66,7 @@ namespace Conexia.Domain.Queries
             return userDto;
         }
 
-        private object ReturnPlayListByGenre(object searchTemperature)
+        private object ReturnPlayListByTemperature(object searchTemperature)
         {
             // Busca musicas para recomendar
             object Musics;
