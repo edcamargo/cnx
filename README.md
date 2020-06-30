@@ -60,8 +60,7 @@ Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
   *    [x] ORM
   *    [x] Deploy on Cloud
   *    [x] Swagger
-  *    [x] Migrations
-  *    [x] CQRs
+  *    [x] Parttern CQRs
   *    [x] Clean Clode
   *    [x] DDD
   *    [x] Test Unitário
