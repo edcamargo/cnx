@@ -16,20 +16,20 @@ A API precisa registrar os seguintes campos do usuário:
        iv) notas pessoais (múltiplos);
 	v) cidade natal.
 
-![screenshoot](https://github.com/edcamargo/cnx/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
 
 ### Notas pessoais e senha não devem estar visíveis no banco de dados.
-![screenshoot](https://github.com/edcamargo/cnx/Docs/CamposInvisiveisBanco.PNG "Screenshoot of the project")
-![screenshoot](https://github.com/edcamargo/cnx/Docs/CamposVisivelApricacao.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/CamposInvisiveisBanco.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/CamposVisivelApricacao.PNG "Screenshoot of the project")
 
 ### A rota de autenticação deve funcionar com o método JWT.
-![screenshoot](https://github.com/edcamargo/cnx/Docs/Autenticacao-JWT.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Autenticacao-JWT.PNG "Screenshoot of the project")
 
 ### A API precisa fornecer um mecanismo de redefinição e esqueci a senha.
 ********************![screenshoot](https://github.com/edcamargo/cnx/Docs/Documentacao-Swagger.PNG "Screenshoot of the project")
 
 ### Registre todas as solicitações para futuras auditorias.
-![screenshoot](https://github.com/edcamargo/cnx/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
+![screenshoot](https://github.com/edcamargo/cnx/blob/master/Docs/Log-Solicitacao.PNG "Screenshoot of the project")
 
 ### Com base na cidade natal e na temperatura atual, é necessário recomendar uma lista de reprodução da seguinte forma: 
   *    i) se a temperatura (celcius) estiver acima de 30 graus, suggests faixas para festa; 
