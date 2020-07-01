@@ -1,12 +1,14 @@
 # CNX Backend Test
 Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
-  - Registrar um usuário e recomendar músicas com base na cidade natal.
-
+  
   - Link do projeto publicado no Azure : https://apiconexia.azurewebsites.net/index.html
 
 ## Regras de negócio
 
 ### A API precisa registrar os seguintes campos do usuário: 
+  
+  - Registrar um usuário e recomendar músicas com base na cidade natal.
+
   - i) nome; 
   - ii) email; 
   - iii) senha; 
@@ -66,7 +68,7 @@ Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
   *    [x] Deploy on Cloud
   *    [x] Swagger
   *    [x] Parttern CQRs
-  *    [x] Clean Clode
+  *    [x] Clean Code
   *    [x] DDD
   *    [x] Test Unitário
   *    [x] Docker
