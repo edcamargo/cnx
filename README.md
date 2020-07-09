@@ -1,7 +1,5 @@
 # CNX Backend Test
 Solução proposta foi a criação de uma APi restful com arquitetura CQRs.
-  
-  - Link do projeto publicado no Azure : https://apiconexia.azurewebsites.net/index.html
 
 ## Regras de negócio
 
